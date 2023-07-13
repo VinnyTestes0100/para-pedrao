@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../img/initialBg.jpeg) fixed;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.container {
+    max-width: 1050px;
+    margin: auto;
+}
+
+.initial {
+    position: relative;
+    min-height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.initial header {
+    display: flex;
+    align-items: center;
+    height: 125px;
+}
+
+.initial header h1 {
+    font-size: 3.5em;
+}
+
+.initialMain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 15px 0;
+    gap: 10px;
+}
+
+.initialMain p {
+    align-self: center;
+    background: rgba(128, 128, 128, 0.197);
+    width: 650px;
+    height: fit-content;
+    padding: 5px 10px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+
+.initialMain .imgTiro {
+    margin-bottom: 15px;
+}
+
+.initialMain .imgTiro img {
+    max-width: 380px;
+}
+
+.initial .passagem {
+    width: 100%;
+}
+
+.initial .passagem svg {
+    position: absolute;
+    height: 120px;
+    bottom: 0;
+}
+
+.gallery {
+    min-height: 100vh;
+    background: #9d7f5f;
+    padding: 35px 0 40px;
+}
+
+.galleryDivContainer {
+    max-width: 1265px;
+    margin: auto
+}
+
+.gallery h2 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+.gallery .galleryContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    height: 980px;
+    gap: 15px;
+   
+}
+
+.gallery .galleryImgContainer {
+    border: 10px solid #524332;
+    height: 465px;
+    width: 219px;
+}
+
+.gallery .galleryImgContainer.smallerImg {
+    height: 570px;
+    width: 329px;
+}
+
+.gallery .galleryImgContainer.smallerImg img{
+    width: 310px;
+}
+
+.gallery .galleryImgContainer img {
+    width: 200px;
+}
+
+.perdaoPedraoBg {
+    background: url(../img/Pedro-perdoa.jpeg) fixed;
+    background-position: 50% 5%;
+    background-size: cover;
+    height: 100vh;
+}
+
+.perdaoPedrao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.65);
+    height: 100vh;
+}
+
+.perdaoContainer h2 {
+    font-size: 3.5em;
+    text-align: center;
+    margin: auto;
+}
+
+.perdaoContainer .botoes {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 35px;
+}
+
+.perdaoContainer .botoes button {
+    font-size: 2em;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+}
+
+.perdaoContainer .botoes button:hover {
+ background: rgb(196, 196, 196);   
+}
+
+.perdaoContainer .botoes #naoPerdoo {
+    transform: translate(0, 0);
+}
